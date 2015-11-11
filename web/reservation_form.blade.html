@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Reserva</title>
+
+
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="keywords" content="Template, html, premium, themeforest" />
+    <meta name="description" content="Traveler - Premium template for travel companies">
+    <meta name="author" content="Tsoy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
+    <!-- /GOOGLE FONTS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mystyles.css">
+    <script src="js/modernizr.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- FACEBOOK WIDGET -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- /FACEBOOK WIDGET -->
+    <div class="global-wrap">
+      <div class="gap"></div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Cliente</h3>
+                    <p>Complete los datos para poder iniciar la reserva de su habitación.</p>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Apellido</label>
+                                    <input class="form-control" type="text" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Nombre</label>
+                                    <input class="form-control" type="text" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Teléfono</label>
+                                    <input class="form-control" type="text" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>E-mail</label>
+                                    <input class="form-control" type="text" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Cantidad Pasajeros</label>
+                                    <select name="pax_quantity" id="input" class="form-control" required>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+									</select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="i-check" type="checkbox" checked/>
+                                Declaro que los datos ingresados son correctos.
+                            </label>
+                        </div>
+                    </form>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="pp-img" src="img/paypal.png" alt="Image Alternative text" title="Image Title" />
+                            <p>Importante: Chequee las opciones de Pago habilitadas para poder realizar la reserva de su Habitación, en el caso que no posea ninguna de las opciones por favor comuniquese con el comercio.</p>	
+                        </div>
+
+                        <div class="col-md-6">
+                            <h4>Datos de su Tarjeta de Credito</h4>
+                            <form class="cc-form">
+                                <div class="clearfix">
+                                    <div class="form-group form-group-cc-number">
+                                        <label>Numero de Tarjeta:</label>
+                                        <input class="form-control" placeholder="xxxx xxxx xxxx xxxx" type="text" /><span class="cc-card-icon"></span>
+                                    </div>
+                                    <div class="form-group form-group-cc-cvc">
+                                        <label>Cod. Seg.</label>
+                                        <input class="form-control" placeholder="xxxx" type="text" />
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                    <div class="form-group form-group-cc-name">
+                                        <label>Titular de la Tarjeta:</label>
+                                        <input class="form-control" type="text" />
+                                    </div>
+                                    <div class="form-group form-group-cc-date">
+                                        <label>Vencimiento</label>
+                                        <input class="form-control" placeholder="mm/yy" type="text" />
+                                    </div>
+                                </div>
+                                <div class="checkbox checkbox-small">
+                                    <label>
+                                        <input class="i-check" type="checkbox" checked/>
+                                        Acepto las Condiciones de Uso</label></div>
+                                <input class="btn btn-primary" type="submit" value="Proceder al Pago" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="booking-item-payment">
+                        <header class="clearfix">Información de la Reserva<a href="#"></a>
+                            <ul class="icon-group booking-item-rating-stars">
+                                <li><i class="fa fa-star"></i>
+                                </li>
+                                <li><i class="fa fa-star"></i>
+                                </li>
+                                <li><i class="fa fa-star"></i>
+                                </li>
+                                <li><i class="fa fa-star"></i>
+                                </li>
+                                <li><i class="fa fa-star"></i>
+                                </li>
+                            </ul>
+                        </header>
+                        <ul class="booking-item-payment-details">
+                            <li>
+                                <h5>Nombre del Hotel</h5>
+                                <div class="booking-item-payment-date">
+                                    <p class="booking-item-payment-date-day">Llegada</p>
+                                    <p class="booking-item-payment-date-day">Abril, 26</p>
+                                    <p class="booking-item-payment-date-weekday">Sabado</p>
+                                </div><i class="fa fa-arrow-right booking-item-payment-date-separator"></i>
+                                <div class="booking-item-payment-date">
+                                    <p class="booking-item-payment-date-day">Salida</p>
+                                    <p class="booking-item-payment-date-day">Mayo, 3</p>
+                                    <p class="booking-item-payment-date-weekday">Sabado</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h5>Tipo de Habitacion</h5>
+                                <ul class="booking-item-payment-price">
+                                    <li>
+                                        <p class="booking-item-payment-price-title">Tipo</p>
+                                        <p class="booking-item-payment-price-amount">Doble</p>
+                                    </li>
+                                    <li>
+                                        <p class="booking-item-payment-price-title">Días</p>
+                                        <p class="booking-item-payment-price-amount">7<small>x AR$ 150</small>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p class="booking-item-payment-total">Total a Pagar: <span>AR$1,050</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+        </div>
+
+
+
+        <footer id="main-footer">
+            <div class="container">
+                <div class="row row-wrap">
+                    <div class="col-md-3">
+                      <p class="mb20">Nav {Booking}.net
+                    Copyright © 2015 Derechos Reservados.</p><br><br>
+                  </div>
+                    <div class="col-md-2">
+                        <ul class="list list-footer">
+                            <li></li>
+                      </ul>
+                </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/slimmenu.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script src="js/bootstrap-timepicker.js"></script>
+        <script src="js/nicescroll.js"></script>
+        <script src="js/dropit.js"></script>
+        <script src="js/ionrangeslider.js"></script>
+        <script src="js/icheck.js"></script>
+        <script src="js/fotorama.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script src="js/typeahead.js"></script>
+        <script src="js/card-payment.js"></script>
+        <script src="js/magnific.js"></script>
+        <script src="js/owl-carousel.js"></script>
+        <script src="js/fitvids.js"></script>
+        <script src="js/tweet.js"></script>
+        <script src="js/countdown.js"></script>
+        <script src="js/gridrotator.js"></script>
+        <script src="js/custom.js"></script>
+    </div>
+</body>
+
+</html>
+
+
